@@ -9,11 +9,11 @@ In this project, a dataset on every day headline about different companies buisn
 0.8544973544973545
 
 ### Classification report : 
-               precision    recall  f1-score   support
+              precision    recall  f1-score   support
 
            0       0.92      0.77      0.84       186
            1       0.81      0.93      0.87       192
-           
+
     accuracy                           0.85       378
    macro avg       0.86      0.85      0.85       378
 weighted avg       0.86      0.85      0.85       378
