@@ -1,12 +1,12 @@
 # stock-sentiment-analysis
 In this project, a dataset on every day headline about different companies buisness strategies and updates are taken and depending on their reports, the change in stock price is recorded and labeled as 1 or 0 for up or down. Then the data is cleaned and all the headlines are joined to form singular string for each. The text data is vectorized using countvectorized with a ngram range of 2x2. Then the headlines are vectorized using this countvectorizer. The vectorized headline are used as an independent fature and the labels are used as the target feature in the prediction. For prediction, we used a randomcalssifier with 200 estimators and entropy criterion. After prediction,the accuracy reports are -
-## Results:
-### Cofusion matrix- 
+## Results
+### Cofusion matrix: 
 [[144  42]
 [ 13 179]]
-### Acuracy score - 
+### Acuracy score: 
 0.8544973544973545
-### Cassification report - 
+### Cassification report : 
               precision    recall  f1-score   support
 
            0       0.92      0.77      0.84       186
